@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Texto Simples</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Editor de Texto Simples</h2>
+
+    <div>
+        <button onclick="desfazer()">Desfazer (Ctrl+Z)</button>
+    </div>
+
+    <textarea id="editor" oninput="atualizarPilha()"></textarea>
+
+    <script src="script.js"></script>
+</body>
+</html>

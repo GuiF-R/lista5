@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila de Atendimento ao Cliente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Fila de Atendimento ao Cliente</h2>
+
+    <div>
+        <label for="cliente">Nome do Cliente:</label>
+        <input type="text" id="cliente" />
+        <button onclick="adicionarCliente()">Adicionar à Fila</button>
+        <button onclick="atenderCliente()">Atender Cliente</button>
+    </div>
+
+    <ul id="fila"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

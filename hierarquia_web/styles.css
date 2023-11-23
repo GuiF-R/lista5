@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.has-children {
+    background-color: #f0f0f0;
+}
+
+.sub-menu {
+    display: none;
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+}
+
+.visible {
+    display: block;
+}

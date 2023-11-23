@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras Interativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Lista de Compras Interativa</h2>
+
+    <div>
+        <label for="item">Novo Item:</label>
+        <input type="text" id="item" />
+        <button onclick="adicionarItem()">Adicionar</button>
+    </div>
+
+    <div>
+        <label for="search">Pesquisar:</label>
+        <input type="text" id="search" />
+        <button onclick="pesquisarItem()">Pesquisar</button>
+    </div>
+
+    <ul id="shoppingList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
